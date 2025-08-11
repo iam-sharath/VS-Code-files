@@ -1,0 +1,270 @@
+.final_data{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+
+}
+@media(min-width :1024px){
+
+  
+  .final_data .final_item_display {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 10px;
+  }
+  .final_details{
+    margin-bottom: -60px;
+  }
+  .item_category{
+    display: inline;
+    font-weight: 550;
+    color: blue;
+  }
+  
+  .final_image {
+    flex: 1;
+    margin-right: 20px; 
+  }
+  .carousel{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .carousel-img {
+    max-width: 100%; 
+    height: auto; 
+    aspect-ratio: 4/1;
+    object-fit: cover;
+  }
+  
+  .brand_name {
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  .item_name {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+
+  .rating_value{
+    display: inline;
+    padding:6px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(4, 186, 35);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  .star{
+    display: inline;
+    margin-top: -5px;
+    padding: 2px;
+    font-size: 23px;
+  }
+  
+  
+  
+  .item_description {
+    margin-top: 10px; 
+    font-size: 16px;
+    font-weight: 550;
+    color: #ffffff;
+  }
+  
+     /* Price_data */
+    
+
+     .final_price {
+        display: inline;
+        margin-right: 10px;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff; 
+        /* margin-top: 10px;  */
+        font-weight: 600;
+        text-shadow:1px 1px #911e1e;
+      }
+      .old_price{
+        display:inline;
+        margin-top: -10px;
+        color: aliceblue;
+      }
+      .old_price p{
+        display: inline;
+        margin-right: 15px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: line-through;
+
+      }
+      .discountPercentage{
+        display: inline;
+        margin-right: 10px;
+        font-weight: 600;
+        font-size: 15px;
+        color: rgb(3, 133, 3);
+
+      }
+
+      .stock_info {
+        font-size: 15px;
+        font-weight: 536;
+        color: #ec0000; 
+        text-shadow: 1px 1px rgb(63, 4, 4);
+
+      }
+
+
+      /* css to data page */
+      .data strong{
+        color: #ffffff;
+      font-size: larger;
+    }
+    .data p{
+      color: rgb(255, 185, 93);
+    }
+    
+
+
+
+
+
+
+  
+      }
+      @media(max-width :786px){
+        .final_data .final_item_display {
+          display: flex;
+          align-items: center;
+          /* justify-content: space-between; */
+          padding: 10px;
+        }
+        .final_details{
+          margin-bottom: -60px;
+        }
+        .item_category{
+          display: inline;
+          font-weight: 550;
+          color: blue;
+        }
+        
+        .final_image {
+          flex: 1;
+          margin-right: 20px; 
+        }
+
+
+
+        .carousel-img{
+          max-width:370px;
+          margin: 0 auto;
+        }
+        
+        .carousel-img img {
+          max-width: 100%;
+          /* max-width: 100%;  */
+          aspect-ratio: 3/1;
+          height: auto; 
+        }
+        
+        .brand_name {
+          font-size: 18px;
+          font-weight: bold;
+          color: aliceblue;
+        }
+        
+        .item_name {
+          margin-top: 10px;
+          font-size: 24px;
+          font-weight: 600;
+          color: rgb(255, 255, 255);
+        }
+      
+        .rating_value{
+          display: inline;
+          padding:6px;
+          font-size: 18px;
+          font-weight: 500;
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background-color: rgb(4, 186, 35);
+          color: rgb(255, 255, 255);
+          border-radius: 5px;
+        }
+        .star{
+          display: inline;
+          margin-top: -5px;
+          padding: 2px;
+          font-size: 23px;
+        }
+        
+        
+        
+        .item_description {
+          margin-top: 10px; 
+          font-size: 16px;
+          font-weight: 550;
+          color: #ffffff;
+        }
+        
+           /* Price_data */
+          
+      
+           .final_price {
+              display: inline;
+              margin-right: 10px;
+              font-size: 28px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: #ffffff; 
+              /* margin-top: 10px;  */
+              font-weight: 600;
+              text-shadow:1px 1px #911e1e;
+            }
+            .old_price{
+              display:inline;
+              margin-top: -10px;
+              color: aliceblue;
+            }
+            .old_price p{
+              display: inline;
+              margin-right: 15px;
+              font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              font-size: 20px;
+              font-weight: 500;
+              text-decoration: line-through;
+      
+            }
+            .discountPercentage{
+              display: inline;
+              margin-right: 10px;
+              font-weight: 600;
+              font-size: 15px;
+              color: rgb(3, 133, 3);
+      
+            }
+      
+            .stock_info {
+              font-size: 15px;
+              font-weight: 536;
+              color: #ec0000; 
+              text-shadow: 1px 1px rgb(63, 4, 4);
+      
+            }
+      
+      
+            /* css to data page */
+            .data strong{
+              color: #ffffff;
+            font-size: larger;
+          }
+          .data p{
+            color: rgb(255, 185, 93);
+          }
+          
+      }

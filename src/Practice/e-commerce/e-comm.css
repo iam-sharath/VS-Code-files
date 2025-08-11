@@ -1,0 +1,96 @@
+
+
+
+.filter{
+    display: flex;
+    justify-content: space-around;
+    padding:5px;
+    background-color: black;
+    margin-bottom: 2px;
+}
+.filter button{
+    background: none;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+
+
+.product{
+    display: flex;
+    justify-content: center;
+
+}
+.product_sub_list{
+    border: 1px groove rgba(255, 255, 255, 0.075) ;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin:2px;
+    justify-content:space-around;
+    animation:headShake;
+    animation-duration: 2s;
+    box-shadow: 0 2 3px rgba(2, 0, 0, 0.1);
+}
+.link{
+    text-decoration: none;
+}
+.brand{
+font-weight:670;
+color: antiquewhite;
+}
+.title{
+font-weight:270;
+/* margin-top:-20px; */
+color: antiquewhite;
+
+}
+.product .product_sub_list .thumbnail_image img{
+border-radius:5px;
+ max-width:100%;
+ max-height:100%;
+}
+.product_sub_list .brand p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.product .product_sub_list .thumbnail_image{
+    width:260px;
+    height:200px;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
+.rating{
+color: red;
+color: antiquewhite;
+
+}
+.price{
+font-weight:500;
+color: antiquewhite;
+
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    background:rgba(0, 0, 0, 0.959); 
+}
+
+
+li{
+list-style-type: none;
+}
+
+.eye_icon{
+    font-size:30px;
+    animation:headShake;
+    animation-duration: 2s;
+    color:red;
+}
+.noproduct{
+    color: white;
+    margin-top: 30px;
+    font-size:larger;
+    font-weight: 500;
+}
